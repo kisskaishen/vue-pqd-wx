@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #999;
+}
+
+img {
+    cursor: pointer;
+    display: block;
+    /*pointer-events: none;*/
+}
+
+input,textarea,select {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    outline: none;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+i {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    transition: opacity .5s;
+}
+
+.fade-leave {
+    opacity: 1;
+}
+
+.fade-leave-active {
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+/* 主要用于商品详情页 */
+
+.divDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.divFl {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.divFl img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.divFl span {
+    display: block;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.divFl b {
+    display: block;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.divFr {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.detailsDiv {
+    /*margin-top: 10px;*/
+    padding: 5px 13px;
+    background-color: #fff;
+}
+
+.red {
+    color: #FF4862 !important;
+}
+
+.toTop {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: url("../imgs/base/icon-to-Top.png") no-repeat center /100%;
+    z-index: 9;
+}
+
+/*.toTop span {*/
+    /*display: block;*/
+    /*color: #fff;*/
+    /*width: 16px;*/
+    /*height: 16px;*/
+    /*margin-top: 6px;*/
+    /*border-right: 4px solid #fff;*/
+    /*border-top: 4px solid #fff;*/
+    /*transform: rotate(-45deg);*/
+/*}*/
+
+/*确认弹框*/
+.mint-msgbox {
+    width: 66% !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    border-radius: 8px !important;
+}
+.mint-msgbox-header {
+    padding-top: 10px !important;
+
+}
+
+.mint-msgbox-title {
+    font-size: 14px !important;
+    padding: 0 16px;
+}
+
+.mint-msgbox-content {
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+}
+
+.mint-msgbox-message {
+    font-size: 14px !important;
+    color: #444 !important;
+}
+
+.mint-msgbox-btns {
+    height: auto !important;
+    font-size: 14px !important;
+}
+
+.mint-msgbox-btn {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.mint-msgbox-cancel {
+    color: #888 !important;
+}
+
+.mint-msgbox-confirm {
+    color: #f13d3c !important;
+}
+.mint-button {
+    border-width: 1px !important;
+}
+
+.mint-button--large {
+    height: 48px !important;
+}
+.mint-toast-text {
+    font-size: 16px !important;
+}
+
+
+.mint-indicator-text {
+    font-size: 16px;
+}
+
+.mint-button-text {
+    font-size: 12px;
+}
+
+/* indicator层级 */
+.mint-indicator-wrapper{
+    z-index: 999;
+}
+
+
+
+.vm-progress--circle .vm-progress__text {
+    font-size: 12px !important;
+}
+
+
+.picker-slot {
+    font-size: 16px;
+}
+
+.bottomLoadingDiv img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.bottomLoadingDiv p {
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.bottomTextTip {
+    text-align: center;
+    color: #999;
+    margin-bottom: 60px;
+}
+
+.overFlow1 {
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

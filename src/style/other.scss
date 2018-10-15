@@ -1,0 +1,133 @@
+// 边框
+//圆角
+.brs8 {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.brs20 {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.brs50 {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+//边框线条
+//规则：br2solideee=>br + 2 + solid + eee
+.br2solideee {
+    border: 2px solid #eee;
+}
+
+.br2solidff4862 {
+    border: 2px solid #ff4862;
+}
+
+.br2solid75602d {
+    border: 2px solid #75602d;
+}
+.br2solide6d7b5 {
+    border: 2px solid #E6D7B5;
+}
+
+// 间距
+// 规则：margin-top=>mt
+// 上右下左
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.-ml10 {
+    margin-left: -10px;
+}
+
+.-ml20 {
+    margin-left: -20px;
+}
+
+// margin相等
+.margin10 {
+    margin: 10px;
+}
+
+.margin20 {
+    margin: 20px;
+}
+
+.margin1020 {
+    margin: 10px 20px;
+}
+
+// 行高
+.lh42 {
+    height: 42px;
+    line-height: 42px;
+}
+
+.overflow1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.overflow2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: box;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+// 看了又看title
+.lookTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 26px;
+    background-color: #fff;
+    i {
+        width: 4px;
+        height: 16px;
+        margin-right: 16px;
+        background: rgba(255, 70, 78, 1);
+        border-radius: 2px;
+    }
+}
